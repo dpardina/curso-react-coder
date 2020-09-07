@@ -86,11 +86,11 @@ export default class App extends Component {
    * @memberof App
    */
   handleSubstract = () => {
-    //if(this.state.count > this.minCounter) {
+    if(this.state.count > this.minCounter) {
       this.setState((state) => ({
         count: state.count - 1
       }));
-    //}
+    }
   }
  
   /**
